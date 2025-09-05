@@ -1,0 +1,10 @@
+{
+  "include": [
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.test.svelte",
+    "src/test/**.svelte",
+    "vite.config.ts"
+  ],
+  "extends": "./tsconfig.build.json"
+}
